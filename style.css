@@ -1,3 +1,8 @@
-body {
-    font-size: 92px
+.top-header {
+    display: flex;
+}
+
+.badge {
+    height: auto;
+    width: 200px;
 }
