@@ -7,7 +7,7 @@ body {
 
 .header {
     background-color: #004D98;
-    padding: 15px 150px;
+    padding: 15px 250px;
 }
    
    /* Styling for the top-header divs */
@@ -18,7 +18,7 @@ body {
 
 .badge {
     height: auto;
-    width: 200px;
+    width: 100px;
 }
 
 .header-links {
@@ -34,7 +34,38 @@ a {
 
 /* Styling for bottom header */
 
+.bottom-header {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.bottom-left-header {
+    max-width: 600px ;
+}
+
+.gif {
+    width: 600px;
+    height: 300px;
+}
 .opening {
-    font-size: 48px;
+    font-size: 52px;
     color: white;
+    margin: 0px;
+}
+
+.description {
+    font-size: 22px;
+    color: white;
+}
+
+.heading-button {
+    background-color: rgb(0, 153, 255);
+    border: 0px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 18px;
 }
