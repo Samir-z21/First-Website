@@ -31,6 +31,7 @@ body {
 }
 
 a {
+    height: 20px;
     color: white;
     text-decoration: none;
 }
@@ -71,6 +72,7 @@ a {
     padding: 10px 30px;
     color: white;
     font-size: 18px;
+    cursor: pointer;
 }
 
 /* Styling for pics section */
@@ -183,6 +185,7 @@ blockquote {
     padding: 10px 40px;
     color: white;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .call-text-description {
