@@ -63,7 +63,7 @@ a {
     color: white;
 }
 
-.heading-button {
+button {
     background-color: rgb(0, 153, 255);
     border: 0px;
     padding: 10px 30px;
@@ -125,6 +125,14 @@ a {
     color: #999;
 }
 
+.reference {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
 /* This declaration was taken from Chat GPT with some slight modifications */
 
 blockquote {
@@ -150,10 +158,5 @@ blockquote {
     color: black;
   }
 
-  .reference {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    font-size: 20px;
-    font-weight: bold;
-  }
+/* Styling for the call to action section */
+
