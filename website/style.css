@@ -1,12 +1,13 @@
    /* Styling for the whole body */
 body {
     margin: 0px;
+    background: linear-gradient(to bottom, #004D98, #DB0030);
 }
    
 /* Styling for the Whole Header */
 
 .header {
-    background-color: #004D98;
+    
     padding: 15px 250px;
 }
    
@@ -74,7 +75,7 @@ a {
 .pic-section {
     padding: 30px 250px;
     padding-bottom: 100px;
-    background-color: rgb(81, 54, 143);
+    
     color: #EDBB00;
     text-align: center;
 }
@@ -114,7 +115,7 @@ a {
     flex-direction: column;
     justify-content: center;
     padding: 100px 250px ;
-    background-color: #a5005b;
+   
 }
 
 .quote {
@@ -123,6 +124,8 @@ a {
     font-size: 36px;
     color: #999;
 }
+
+/* This declaration was taken from Chat GPT with some slight modifications */
 
 blockquote {
     position: relative;
@@ -137,12 +140,7 @@ blockquote {
     font-size: 60px;
     color: black;
   }
-  
-  blockquote p {
-    font-size: 18px;
-    line-height: 1.4;
-  }
-  
+   
   blockquote:after {
     content: "\201D"; /* closing double quotation mark */
     position: absolute;
@@ -150,4 +148,12 @@ blockquote {
     right: -20px;
     font-size: 60px;
     color: black;
+  }
+
+  .reference {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
   }
