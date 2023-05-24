@@ -7,7 +7,6 @@ body {
 /* Styling for the Whole Header */
 
 .header {
-    
     padding: 15px 250px;
 }
    
@@ -63,7 +62,7 @@ a {
     color: white;
 }
 
-button {
+.heading-button {
     background-color: rgb(0, 153, 255);
     border: 0px;
     padding: 10px 30px;
@@ -160,3 +159,40 @@ blockquote {
 
 /* Styling for the call to action section */
 
+.call-section {
+    padding: 100px 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-block {
+    background-color: #004D98;
+    color: white;
+    width: 800px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-button {
+    background-color: rgb(0, 153, 255) ;
+    border:0px;
+    padding: 10px 40px;
+    color: white;
+    font-size: 18px;
+}
+
+.call-text-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-text {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.call-description {
+    font-size: 18px;
+}
