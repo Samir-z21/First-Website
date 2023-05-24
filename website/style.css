@@ -1,6 +1,9 @@
    /* Styling for the whole body */
 body {
     margin: 0px;
+}
+
+.content {
     background: linear-gradient(to bottom, #004D98, #DB0030);
 }
    
@@ -195,4 +198,20 @@ blockquote {
 
 .call-description {
     font-size: 18px;
+}
+
+/* Styling for the footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    align-items: center;
+    background-color: #001625;
+    color: white;
+}   
+
+span {
+    margin-left: 3px;
+    margin-right: 3px;
 }
